@@ -1,0 +1,9 @@
+streamlit
+opencv-python-headless
+numpy
+onnxruntime
+torch
+torchvision
+scipy
+pillow
+werkzeug
