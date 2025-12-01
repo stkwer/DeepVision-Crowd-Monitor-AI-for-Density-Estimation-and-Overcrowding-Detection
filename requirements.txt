@@ -1,0 +1,15 @@
+streamlit
+
+# ML / CV libraries
+numpy
+torch
+torchvision
+ultralytics
+opencv-python-headless
+tqdm
+seaborn
+# Database
+Flask-SQLAlchemy 
+requests
+pandas
+streamlit-webrtc
