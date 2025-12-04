@@ -1,0 +1,41 @@
+# Ignore everything in checkpoints
+checkpoints/*
+# Except this specific file
+!checkpoints/csrnet_epoch_27.pth
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.egg-info/
+*.egg
+*.env
+*.venv
+env/
+venv/
+ENV/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Data / Outputs
+images/
+preprocessed/
+test_mat.py
+preproc_matched_to_gt_fixed.csv
+ShanghaiTech_images_preproc_mapping.csv
+processed_data_from_preproc_imagematch_fixed.npy
+processed_data_from_preproc_imagematch.npy
+processed_data_from_preproc.npy
+processed_data_preproc_fixed.npy
+processed_data_preproc.npy
+processed_data.npy
+processed_data_from_preproc_imagematch_fixed.npy
+processed_data_from_preproc_imagematch.npy
